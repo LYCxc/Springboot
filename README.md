@@ -7,5 +7,5 @@
 | getStuById(Integer id)                   | GET         |
 | getStuByName(String name)                | GET         |
 | CreateStu(String name, String age)       | POST        |
- | UpdateStuByName(String name, String age) | POST        |
+ | UpdateStuByName(String name, String age) | PUT        |
  | DeleteStuByName(String name)             | DELETE      |     
