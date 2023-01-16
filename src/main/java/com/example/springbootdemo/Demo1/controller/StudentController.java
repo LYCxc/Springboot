@@ -71,7 +71,7 @@ public class StudentController {
         }
         return "Success";
     }
-    @RequestMapping(value = "/Update",method = RequestMethod.POST)
+    @RequestMapping(value = "/Update",method = RequestMethod.PUT)
     @ResponseBody
     public String UpdatetStuByName(@RequestParam("name")String name,@RequestParam("Age")String age)
     {
